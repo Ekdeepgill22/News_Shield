@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Fake News Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="background"></div>
+
+    <div class="login-container">
+        <h1>Login</h1>
+        <form method="POST">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <nav class="flex-1">
+        <ul class="space-y-2">
+            <li>
+                <a href="/" class="flex items-center p-3 rounded-lg hover:bg-white/10 transition-colors">
+                    <i class="fas fa-home mr-3"></i>
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="/dataset_analysis" class="flex items-center p-3 rounded-lg hover:bg-white/10 transition-colors">
+                    <i class="fas fa-database mr-3"></i>
+                    Dataset Analysis
+                </a>
+            </li>
+            <li>
+                <a href="/real_time_search" class="flex items-center p-3 rounded-lg hover:bg-white/10 transition-colors">
+                    <i class="fas fa-search mr-3"></i>
+                    Real-time Search
+                </a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
