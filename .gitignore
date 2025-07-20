@@ -1,0 +1,25 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore environment variable files
+*.env
+
+# Ignore logs
+*.log
+
+# Ignore CSV datasets
+**/cleaned_news.csv
+
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# VSCode settings (optional)
+.vscode/
+
+
