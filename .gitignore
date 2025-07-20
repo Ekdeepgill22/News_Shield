@@ -7,9 +7,6 @@ venv/
 # Ignore logs
 *.log
 
-# Ignore CSV datasets
-**/cleaned_news.csv
-
 
 # Byte-compiled / cache files
 __pycache__/

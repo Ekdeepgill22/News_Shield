@@ -39,19 +39,6 @@ python main.py
 
 - The app will be available at `http://127.0.0.1:5000`
 
-## Project Structure
-```
-News_Sheild/
-  fake news detection/
-    main.py
-    static/
-    templates/
-    # Place your .pkl and .csv files here
-requirements.txt
-.env.example
-README.md
-.gitignore
-```
 
 ## Notes
 - **Do NOT commit your actual `.env` or data/model files to GitHub.**
