@@ -105,6 +105,10 @@ def real_time_search():
 def dataset_analysis():
     return render_template("dataset_analysis.html")
 
+@app.route('/health')
+def health():
+    return jsonify({"status": "ok"}), 200
+
 @app.route("/.well-known/appspecific/com.chrome.devtools.json")
 def ignore_devtools_request():
     return "", 204  # 204 = No Content
